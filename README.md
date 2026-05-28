@@ -27,6 +27,12 @@ To understand the inventory at BC Liquor Stores, we first analyzed where product
 ![Category Breakdown by Top 10 Countries](Product%20Breakdown.png)
 ![Category Breakdown by Top 10 Countries](Wine%20Breakdown.png)
 
+|           |   coef |   std err |       z |   P>|z| |   [0.025 |   0.975] |
+|:----------|-------:|----------:|--------:|--------:|---------:|---------:|
+| const     | 3.8916 |     0.022 | 174.893 |       0 |    3.848 |    3.935 |
+| is_france | 1.2635 |     0.031 |  40.244 |       0 |    1.202 |    1.325 |
+
+
 The regression results indicate that both coefficients are statistically significant, meaning that French origin is confidently associated with a premium wine price. 
 
 However, the $R^2$ and adjusted $R^2$ values indicate that there are significant lurking variables not accounted for in the current model. We propose two primary explanations for this unaccounted variance:
