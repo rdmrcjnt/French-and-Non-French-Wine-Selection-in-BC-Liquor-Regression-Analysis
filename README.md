@@ -9,7 +9,7 @@ OLS linear regression analysis quantifying country-of-origin price premiums usin
 
 ---
 ## Executive Summary
-This project explores the varieties of liquor in BC Liquor Stores and analyzes their countries of origin. The data shows that Wine is the dominant product category, with the majority of these wines originating from France. Our statistical analysis confirmed that France commands a statistically significant price premium compared to wines from other countries, with an average associated price difference of CAD 124 per litre. Beyond wine, the data reveals strong regional specializations: Canada excels as the primary producer of beer, while Mexico and the United Kingdom lead the market in spirit production.
+This project explores the varieties of liquor in BC Liquor Stores and analyzes their countries of origin. The data shows that Wine is the dominant product category, with the majority of these wines originating from France. Our statistical analysis confirmed that France commands a statistically significant price premium compared to wines from other countries, with an average associated price difference of CAD 124 per litre. Beyond wine, the data reveals strong regional specializations: Canada excels as the primary producer of beer and refreshment beverages, while the United Kingdom leads the market in spirit production.
 
 ## Methodology
 We utilized a linear regression model with one dummy variable, where the dummy variable is assigned a value of 1 if the wine is from France and 0 if it originates from any other country. 
