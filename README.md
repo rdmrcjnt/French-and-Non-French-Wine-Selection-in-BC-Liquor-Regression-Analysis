@@ -20,6 +20,11 @@ To ensure the statistical validity of the model, we conducted several diagnostic
 * **Independence:** A test of autocorrelation was performed, confirming that the observations are independent of each other.
 
 ## Key Findings and Data Analysis
+To understand the inventory at BC Liquor Stores, we first analyzed where products come from and what categories dominate the market. As shown below, wine is the dominant product category across major exporting countries. Canada specializes heavily in beer, while the United Kingdom leads the market in spirit production.
+
+![Category Breakdown by Top 10 Countries](images/Product Breakdown.png)
+![Category Breakdown by Top 10 Countries](images/Wine Breakdown.png)
+
 The regression results indicate that both coefficients are statistically significant, meaning that French origin is confidently associated with a premium wine price. 
 
 However, the $R^2$ and adjusted $R^2$ values indicate that there are significant lurking variables not accounted for in the current model. We propose two primary explanations for this unaccounted variance:
