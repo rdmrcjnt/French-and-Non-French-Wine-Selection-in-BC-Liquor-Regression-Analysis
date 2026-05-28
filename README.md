@@ -22,8 +22,8 @@ To ensure the statistical validity of the model, we conducted several diagnostic
 ## Key Findings and Data Analysis
 To understand the inventory at BC Liquor Stores, we first analyzed where products come from and what categories dominate the market. As shown below, wine is the dominant product category across major exporting countries. Canada specializes heavily in beer, while the United Kingdom leads the market in spirit production.
 
-![Category Breakdown by Top 10 Countries](images/Product Breakdown.png)
-![Category Breakdown by Top 10 Countries](images/Wine Breakdown.png)
+![Category Breakdown by Top 10 Countries](Product%20Breakdown.png)
+![Category Breakdown by Top 10 Countries](Wine%20Breakdown.png)
 
 The regression results indicate that both coefficients are statistically significant, meaning that French origin is confidently associated with a premium wine price. 
 
